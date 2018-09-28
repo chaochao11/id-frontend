@@ -6,6 +6,7 @@ src/actions/types.js
 node_modules/
 dist/
 bundle.js
+package-lock.json
 npm-debug.log
 **/.DS_Store
 .vscode

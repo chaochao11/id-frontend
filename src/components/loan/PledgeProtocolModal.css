@@ -1,0 +1,54 @@
+.pledge-protocol-modal {
+    padding-top: 30px;
+    height: 600px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+}
+.pledge-protocol-modal h2 {
+  font-size: 18px;
+  line-height: 72px;
+  text-align: center;
+}
+.pledge-protocol-modal h3 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 42px;
+}
+.pledge-protocol-modal h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+}
+.pledge-protocol-modal p {
+  font-size: 14px;
+  text-indent: 28px;
+}
+.pledge-protocol-modal .important-tip {
+  font-weight: bold;
+  text-indent: 0;
+}
+
+.pledge-protocol-modal-footer {
+  text-align: center;
+  padding: 10px 0;
+}
+.pledge-protocol-modal-footer button {
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px #329aff;
+	background-image: linear-gradient(90deg,
+		#167aff 0%,
+		#3ca6ff 67%,
+		#62d2fe 100%),
+	linear-gradient(
+		#eeeeee,
+		#eeeeee);
+	background-blend-mode: normal,
+		normal;
+	border-radius: 4px;
+}

@@ -1,0 +1,69 @@
+.transfer-money-form-container {
+  margin: 30px 18px 0 18px;
+}
+.transfer-money-form-container .title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #313131;
+  margin-bottom: 30px;
+}
+
+.transfer-target .transfer-target-input-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.transfer-target .transfer-target-input-group .target-label {
+  margin: 0;
+}
+
+.transfer-money-form-container .pledge-currency {
+  height: 60px;
+}
+
+.transfer-target .balance-tip i {
+  font-style: normal;
+  color: #313131;
+}
+
+.transfer-target .balance-tip a {
+  color: #167afe;
+}
+
+.transfer-target .balance-tip a:hover {
+  text-decoration: underline;
+}
+
+.transfer-money-form-container .borrow-amount .borrow-amount-unit {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #167afe;
+    cursor: pointer;
+}
+
+.transfer-money-modal-footer {
+  text-align: center;
+  padding: 10px 0;
+}
+.transfer-money-modal-footer button {
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px #329aff;
+	background-image: linear-gradient(90deg,
+		#167aff 0%,
+		#3ca6ff 67%,
+		#62d2fe 100%),
+	linear-gradient(
+		#eeeeee,
+		#eeeeee);
+	background-blend-mode: normal,
+		normal;
+	border-radius: 4px;
+}

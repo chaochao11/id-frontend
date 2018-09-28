@@ -1,0 +1,48 @@
+.transfer-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.transfer-success-container p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #313131;
+}
+
+.transfer-success-container p strong {
+  color: #FF9914;
+}
+
+.transfer-success-container p i {
+  color:  #167AFE;
+  font-style: normal;
+}
+
+.transfer-success-modal-footer {
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+.transfer-success-modal-footer button {
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px #329aff;
+	background-image: linear-gradient(90deg, 
+		#167aff 0%, 
+		#3ca6ff 67%, 
+		#62d2fe 100%), 
+	linear-gradient(
+		#eeeeee, 
+		#eeeeee);
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 4px;
+}

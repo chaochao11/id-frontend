@@ -1,0 +1,407 @@
+.security-assurance-page {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  padding-bottom: 120px;
+  background-image: url(./../../../public/img/safe-page-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.security-assurance-page .section {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.security-assurance-page .section .section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.security-assurance-page .section .section-container .text-container {
+  flex: 1 1;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.security-assurance-page
+  .section
+  .section-container
+  .text-container:nth-child(1) {
+  padding-right: 100px;
+}
+.security-assurance-page
+  .section
+  .section-container
+  .text-container:nth-child(2) {
+  padding-left: 100px;
+}
+.security-assurance-page
+  .section
+  .section-container
+  .text-container:nth-child(2)
+  .title
+  p {
+  text-align: right;
+}
+.security-assurance-page
+  .section
+  .section-container
+  .text-container:nth-child(3) {
+  padding-right: 100px;
+}
+.security-assurance-page .section .section-container .text-container .title {
+  margin-bottom: 50px;
+}
+
+.security-assurance-page .section .section-container .text-container .title h2 {
+  font-size: 40px;
+  color: #313131;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.security-assurance-page
+  .section
+  .section-container
+  .text-container
+  .text-content
+  p {
+  font-size: 20px;
+  color: #666666;
+  text-align: justify;
+}
+
+.security-assurance-page .section .section-container .description-img {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.security-assurance-page .section .section-container .description-img img {
+  width: 100%;
+}
+
+.security-assurance-page .efficient-section .section-container,
+.security-assurance-page .safe-section .section-container,
+.security-assurance-page .credible-section .section-container,
+.security-assurance-page .risk-control-section .section-container {
+  display: flex;
+  height: 100%;
+}
+
+.security-assurance-page
+  .risk-control-section
+  .risk-control-section-container
+  .title {
+  width: 100%;
+  margin-bottom: 80px;
+  display: inline-block;
+}
+
+.security-assurance-page
+  .risk-control-section
+  .risk-control-section-container
+  .title
+  h2 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+
+.security-assurance-page
+  .risk-control-section
+  .risk-control-section-container
+  .title
+  p {
+  font-size: 14px;
+  color: #cacaca;
+  text-align: center;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group {
+  display: flex;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item:first-child {
+  margin-left: 0;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item:last-child {
+  margin-right: 0;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item
+  .item-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item
+  .item-title
+  img {
+  width: 46px;
+  height: 46px;
+  margin-bottom: 60px;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item
+  .item-title
+  h4 {
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.security-assurance-page
+  .risk-control-section-container
+  .risk-control-intr-group
+  .risk-control-intr-item
+  p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: justify;
+}
+@media screen and (max-width: 1440px) {
+  .security-assurance-page .section .section-container {
+    width: 70%;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container
+    .title
+    h2 {
+    font-size: 32px;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container
+    .text-content
+    p {
+    font-size: 22px;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(1) {
+    padding-right: 100px;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(2) {
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .security-assurance-page {
+    margin-top: 60px;
+  }
+  .security-assurance-page .section {
+    padding: 60px 0;
+  }
+  .security-assurance-page .section .section-container {
+    width: 90%;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container
+    .title
+    h2 {
+    font-size: 28px;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container
+    .text-content
+    p {
+    font-size: 16px;
+  }
+  .security-assurance-page
+    .risk-control-section-container
+    .risk-control-intr-group {
+    flex-direction: column;
+  }
+  .security-assurance-page
+    .risk-control-section-container
+    .risk-control-intr-group
+    .risk-control-intr-item {
+    margin: 0 0 40px 0;
+  }
+  .security-assurance-page
+    .risk-control-section-container
+    .risk-control-intr-group
+    .risk-control-intr-item
+    .item-title
+    img {
+    margin-bottom: 20px;
+  }
+  .security-assurance-page
+    .manager-section
+    .manager-section-container
+    .manager-feature-list {
+    flex-direction: column;
+  }
+  .security-assurance-page
+    .manager-section
+    .manager-section-container
+    .manager-feature-list
+    li {
+    margin: 0 0 20px 0;
+  }
+  .security-assurance-page
+    .manager-section
+    .manager-section-container
+    .manager-list {
+    flex-direction: column;
+  }
+  .security-assurance-page
+    .manager-section
+    .manager-section-container
+    .manager-list
+    li {
+    margin: 0 0 20px 0;
+  }
+  .security-assurance-page
+    .manager-section
+    .manager-section-container
+    .manager-list
+    li
+    .manager-intr {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px) {
+  .security-assurance-page .section .section-container {
+    width: 60%;
+  }
+  .security-assurance-page .safe-section .section-container,
+  .security-assurance-page .risk-control-section .section-container {
+    flex-direction: column-reverse;
+  }
+  .security-assurance-page .efficient-section .section-container,
+  .security-assurance-page .credible-section .section-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .security-assurance-page .section .section-container .description-img {
+    margin: 30px 0;
+  }
+  .security-assurance-page .section .section-container .text-container .title {
+    margin-bottom: 20px;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(1) {
+    padding-right: 0;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(2) {
+    padding-left: 0;
+    text-align: right;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(2)
+    .title
+    p {
+    text-align: right;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(3) {
+    padding-right: 0;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container
+    .title
+    h2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 425px) {
+  .security-assurance-page .section .section-container {
+    width: 90% !important;
+  }
+  .security-assurance-page .safe-section .section-container,
+  .security-assurance-page .risk-control-section .section-container {
+    flex-direction: column-reverse;
+  }
+  .security-assurance-page .efficient-section .section-container,
+  .security-assurance-page .credible-section .section-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(1) {
+    padding-right: 0;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(2) {
+    padding-left: 0;
+    text-align: right;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(2)
+    .title
+    p {
+    text-align: right;
+  }
+  .security-assurance-page
+    .section
+    .section-container
+    .text-container:nth-child(3) {
+    padding-right: 0;
+  }
+}

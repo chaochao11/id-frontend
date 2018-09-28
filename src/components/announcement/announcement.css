@@ -1,0 +1,107 @@
+.announcement-container {
+  max-width: 1200px;
+  width: 80%;
+  height: auto;
+  min-height: 300px;
+  margin: 84px auto 45px auto;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 24px 2px rgba(154, 154, 154, 0.23);
+  padding: 30px 130px 10px 80px;
+  text-align: center;
+}
+
+.announcement-list {
+  min-height: 200px;
+  line-height: 200px;
+}
+
+.announcement-list li {
+  height: 78px;
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  text-align: left;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 78px;
+  color: #167aff;
+  border-bottom: dashed 1px #d4d4d4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.announcement-list li span {
+  cursor: pointer;
+}
+.announcement-list li span:hover {
+  text-decoration: underline;
+}
+
+.announcement-container .ant-pagination {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.announcement-container .ant-pagination .ant-pagination-item-link,
+.announcement-container .ant-pagination .ant-pagination-item {
+  border: none;
+  color: #979797;
+}
+
+.announcement-container .ant-pagination .ant-pagination-item-active {
+  border-radius: 100%;
+  background-image: linear-gradient(90deg, #167aff 0%, #3ca6ff 67%, #62d2fe 100%),
+    linear-gradient(#e5e5e5, #e5e5e5);
+  background-blend-mode: normal, normal;
+  box-shadow: 0 0 10px #329aff;
+}
+
+.announcement-detail-container {
+  padding: 90px;
+}
+
+.announcement-detail-container h2 {
+  font-family: MicrosoftYaHei;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 2;
+  font-stretch: normal;
+  color: #262626;
+  margin-bottom: 100px;
+}
+
+.announcement-detail-container .detail-header {
+  line-height: 2.5;
+  text-align: left;
+}
+.announcement-detail-container .detail-header p,
+.announcement-detail-container .detail-footer p {
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #313131;
+}
+.announcement-detail-container .detail-content {
+  margin-top: 10px;
+  text-align: left !important;
+  line-height: 2;
+}
+.announcement-detail-container .detail-footer {
+  text-align: right;
+  line-height: 2.5;
+}
+
+@media screen and (max-width: 425px) {
+  .announcement-container {
+    width: 90%;
+    padding: 30px 20px 10px 20px;
+    margin: 30px auto 30px auto;
+  }
+  .announcement-list li {
+    height: 56px;
+    line-height: 56px;
+  }
+  .announcement-detail-container h2 {
+    margin-bottom: 30px;
+  }
+}

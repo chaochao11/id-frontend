@@ -1,0 +1,54 @@
+.signin-page,
+.auth-page {
+  width: 61.25%;
+  height: 100%;
+  margin-top: 73px;
+  min-height: 560px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 100px 0;
+  background: url("./../../../public/img/signin-bg.png") no-repeat;
+  background-position: center;
+}
+.signin-page .signin-wrapper,
+.auth-page .auth-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.signin-page .signin-wrapper .signin-container,
+.auth-page .auth-wrapper .auth-container {
+  width: 44%;
+  height: 100%;
+  display: inline-block;
+  flex: 1 1;
+  margin-right: 100px;
+}
+
+.signin-page .signin-wrapper .banner-container,
+.auth-page .auth-wrapper .banner-container {
+  width: 44%;
+  height: 100%;
+  display: inline-block;
+  flex: 1 1;
+  align-self: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .signup-page .signup-wrapper,
+  .auth-page .auth-wrapper {
+    flex-direction: column;
+  }
+  .banner-container {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .signin-page,
+  .auth-page {
+    width: 90%;
+    padding-top: 40px;
+  }
+}

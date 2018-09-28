@@ -1,0 +1,88 @@
+.loan-success-page {
+  display: inline-block;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.loan-success-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 120px 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.operation-btn-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.operation-btn-group .btn {
+  width: 15%;
+  min-width: 80px;
+  height: 30px;
+  border: none;
+  outline: none !important;
+  background-blend-mode: normal, normal;
+  border-radius: 6px;
+}
+
+.operation-btn-group .continue-btn {
+  margin-right: 10px;
+  color: #ffffff;
+  background-image: linear-gradient(
+      90deg,
+      #167aff 0%,
+      #3ca6ff 67%,
+      #62d2fe 100%
+    ),
+    linear-gradient(#eeeeee, #eeeeee);
+}
+
+.operation-btn-group .mine-btn {
+  margin-left: 10px;
+  color: #167aff;
+  background-color: #ffffff;
+  border: 1px solid #167aff;
+}
+
+.loan-success-page p {
+  font-family: MicrosoftYaHei;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  word-break: break-all;
+}
+
+.loan-success-page .loan-success-text {
+  font-size: 18px;
+  color: #313131;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.loan-success-page .loan-success-text strong {
+  color: #167aff;
+}
+
+.loan-success-page .tip {
+  font-size: 16px;
+  color: #9c9c9c;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .operation-btn-group {
+    justify-content: space-around;
+  }
+}
